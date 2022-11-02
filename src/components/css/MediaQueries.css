@@ -1,0 +1,10 @@
+/* Laptop */
+@media (max-width: 1024px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+/* Tablet */
+@media (max-width: 950px) {
+}
