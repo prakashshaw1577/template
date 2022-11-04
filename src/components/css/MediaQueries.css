@@ -1,3 +1,7 @@
+.header .menu-bar {
+  display: none;
+}
+
 /* Laptop */
 @media (max-width: 1024px) {
   html {
@@ -7,4 +11,74 @@
 
 /* Tablet */
 @media (max-width: 950px) {
+  .services .service-wrapper,
+  .footer .footer-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/* Tablet */
+@media (max-width: 768px) {
+  .portfolio .portfolio-wrapper,
+  .services .service-wrapper,
+  .testimonial .testimonial-wrapper,
+  .footer .footer-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .footer .col {
+    width: 100%;
+  }
+}
+
+@media (max-width: 540px) {
+  .header nav {
+    justify-content: space-between;
+  }
+  .header .nav-list {
+    display: none;
+  }
+  .header .menu-bar {
+    display: block;
+    z-index: 999;
+  }
+
+  .header .menu-list {
+    margin-left: 0px;
+    display: block;
+    text-align: center;
+  }
+
+  .header .menu-list li {
+    color: white;
+    margin-top: 80px;
+  }
+  .header .menu-list li a {
+    font-size: 24px;
+    color: white;
+  }
+  .header .menu-list li a:hover {
+    background-color: #568dde;
+  }
+
+  .header-content h1 {
+    font-size: 30px;
+  }
+  .footer .footer-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .service-content-box {
+    justify-self: center;
+  }
+
+  .testimonial-intro .description {
+    font-size: 24px;
+  }
+  .testimonial-intro .avatar-wrapper {
+    width: 123px;
+  }
+  .avatar-wrapper .avatar-img {
+    justify-self: center;
+    width: 34px;
+  }
 }

@@ -1,0 +1,92 @@
+{
+  "menu": [
+    {
+      "id": "1",
+      "menuList": "Home"
+    },
+    {
+      "id": "2",
+      "menuList": "Portfolio"
+    },
+    {
+      "id": "3",
+      "menuList": "About"
+    },
+    {
+      "id": "4",
+      "menuList": "Contact"
+    },
+    {
+      "id": "5",
+      "menuList": "Blog"
+    }
+  ],
+  "service": [
+    {
+      "id": "1",
+      "icon": "fa-solid fa-laptop",
+      "heading": "Web Design",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+    },
+    {
+      "id": "2",
+      "icon": "fa-solid fa-magnifying-glass",
+      "heading": "Search Optimization",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+    },
+    {
+      "id": "3",
+      "icon": "fa-solid fa-cart-shopping",
+      "heading": "Online shopping",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+    },
+    {
+      "id": "4",
+      "icon": "fa-solid fa-thumbs-up",
+      "heading": "Social Media",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "img": "https://www.01net.com/app/uploads/2020/12/MEA-Photos-App-windows-10-1.jpg",
+      "heading": "Lorem Ipsum ",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+    },
+    {
+      "id": "2",
+      "img": "https://www.01net.com/app/uploads/2020/12/MEA-Photos-App-windows-10-1.jpg",
+      "heading": "Lorem simply",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+    },
+    {
+      "id": "3",
+      "img": "https://www.01net.com/app/uploads/2020/12/MEA-Photos-App-windows-10-1.jpg",
+      "heading": "Ipsum simply",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+    }
+  ],
+  "testimonial": [
+    {
+      "id": "1",
+      "heading": "Web Design",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+    },
+    {
+      "id": "2",
+      "heading": "Search Optimization",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+    },
+    {
+      "id": "3",
+      "heading": "Online shopping",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+    },
+    {
+      "id": "4",
+      "heading": "Social Media",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+    }
+  ]
+}

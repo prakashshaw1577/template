@@ -1,7 +1,7 @@
 import React from "react";
 import "./PortFolio.css";
-import portfolioImg from "../img/portfolio1.png";
-
+// import portfolioImg from "../img/portfolio1.png";
+import data from "../data.json";
 const Portfolio = () => {
   return (
     <div>
@@ -9,36 +9,17 @@ const Portfolio = () => {
         <div className="container">
           <h1>Our PortFolio Awesome</h1>
           <div className="portfolio-wrapper grid">
-            <div className="portfolio-box">
-              <div className="portfolio-image">
-                <img src={portfolioImg} alt="portfolio" />
-              </div>
-              <h2>Lorem Ipsum is simply</h2>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's
-              </p>
-            </div>
-            <div className="portfolio-box">
-              <div className="portfolio-image">
-                <img src={portfolioImg} alt="portfolio" />
-              </div>
-              <h2>Lorem Ipsum is simply</h2>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's
-              </p>
-            </div>
-            <div className="portfolio-box">
-              <div className="portfolio-image">
-                <img src={portfolioImg} alt="portfolio" />
-              </div>
-              <h2>Lorem Ipsum is simply</h2>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's
-              </p>
-            </div>
+            {data.portfolio.map((item) => {
+              return (
+                <div className="portfolio-box" key={item.id}>
+                  <div className="portfolio-image">
+                    <img src={item.img} alt="portfolio" />
+                  </div>
+                  <h2>{item.heading}</h2>
+                  <p>{item.desc}</p>
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>

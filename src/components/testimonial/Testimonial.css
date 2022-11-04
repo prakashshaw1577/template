@@ -1,5 +1,6 @@
 .testimonial-intro {
   text-align: center;
+
   padding: 40px;
 }
 
@@ -14,7 +15,7 @@
 }
 
 .testimonial-wrapper {
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
   gap: 40px;
 }
 
@@ -32,13 +33,13 @@ hr {
 .description {
   font-family: "Arial Narrow", Arial, sans-serif;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 24px;
 }
 
 .avatar-wrapper {
-  margin-top: 32px;
-  justify-content: center;
-  gap: 16px;
+  width: 250px;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 32px auto;
 }
 
 .fa-solid {
@@ -49,7 +50,16 @@ hr {
 }
 
 .avatar-img {
-  width: 64px;
-  padding-bottom: 12px;
-  border-bottom: 4px solid gray;
+  margin: 10px auto;
+  width: 54px;
+}
+.slick-prev,
+.slick-next {
+  color: black;
+}
+.slick-carousel {
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
 }
